@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Barbra Semcondensed';
+    src:
+         url('fontes/barbra-font/Barbra-High.ttf') format('truetype'),
+         url('fontes/barbra-font/Barbra-High.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background: rgb(140,82,255);
+    background: linear-gradient(90deg, rgba(140,82,255,1) 0%, rgba(0,191,99,1) 100%); 
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header { /*cabeçalho*/
+    background: white;
+    border-bottom: solid 2px rgba(140,82,255,1);
+    color: black;
+    padding: 20px;
+    display: flex;
+    align-items: left; 
+    font-size: 20px;
+}
+
+.titulo { /*Classe para título do cabeçalho*/
+    font-family: 'Barbra Semcondensed', sans-serif;
+    font-size: 24px;
+    color: #333; 
+    line-height: 70px;
+
+}
+
+.logo { /*Classe para logo do cabeçalho*/
+    height: 50px; 
+    margin-right: 50px; 
+}
+
+
+p { /*testar*/
+
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 0.5;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  }
+
+
+  /*OS 4 estilos abaixo são para a aba nav*/
+#menu ul  {
+    background: white;  /*visual da lista*/
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0; padding: 0;
+    display: inline-block;
+    background-color: transparent;
+    font-family: 'Barbra Semcondensed', sans-serif;
+    list-style:none;
+}
+
+#menu ul li {display: inline; /*deixar na horizontal.*/}  
+
+#menu ul li a { 
+    padding: 2px 50px; 
+    display: inline-block; /* visual do link */ 
+    background-color:white; 
+    color: black; /*cor do texto*/ 
+    text-decoration: none; 
+    border-bottom:3px solid white;
+    border-radius: 20px;
+}
+
+#menu ul li a:hover { 
+    background-color:#D6D6D6; /*visual ao passar mouse*/
+    color: #6D6D6D;
+    border: 3px solid rgba(140,82,255,1);
+  }
