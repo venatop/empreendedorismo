@@ -84,4 +84,10 @@ p { /*testar*/
     background-color:#D6D6D6; /*visual ao passar mouse*/
     color: #6D6D6D;
     border: 3px solid rgba(140,82,255,1);
+
+footer {
+background: white;
+
+}
+
   }
