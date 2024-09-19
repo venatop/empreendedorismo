@@ -71,7 +71,7 @@ p { /*testar*/
 #menu ul li {display: inline; /*deixar na horizontal.*/}  
 
 #menu ul li a { 
-    padding: 2px 50px; 
+    padding: 3px 60px; 
     display: inline-block; /* visual do link */ 
     background-color:white; 
     color: black; /*cor do texto*/ 
