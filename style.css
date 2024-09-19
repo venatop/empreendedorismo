@@ -59,8 +59,8 @@ p { /*testar*/
   /*OS 4 estilos abaixo são para a aba nav*/
 #menu ul  {
     background: white;  /*visual da lista*/
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     margin: 0; padding: 0;
     display: inline-block;
     background-color: transparent;
