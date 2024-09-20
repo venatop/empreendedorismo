@@ -96,4 +96,8 @@ line-height: 2em;
 color: black;
 }
 
+img {
+    justify-items: center;
+    justify-content: center;
+}
  
