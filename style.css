@@ -16,7 +16,7 @@
 }
 
 body {
-    background: linear-gradient(90deg,#021F2D 0%, #2C63C9 100%); 
+    background-image: linear-gradient(90deg,#021F2D 0%, #2C63C9 100%); 
     margin: 0px;
     margin-bottom: 100px;
 }
