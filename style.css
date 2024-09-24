@@ -46,16 +46,6 @@ header { /*cabeçalho*/
     margin-right: 40px; 
 }
 
-
-p { /*testar*/
-
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 0.5;
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-  }
-
-
   /*OS 4 estilos abaixo são para a aba nav*/
 #menu ul  {
     background: white;  /*visual da lista*/
@@ -104,12 +94,18 @@ main {
 
 footer {
     background-color: whitesmoke;
-    color: black;
-    text-align: center; 
+    
     padding: 20px 0; 
     position: fixed; 
     bottom: 0;
     width: 100%;
+}
+
+footer p {
+    color: black;
+    text-align: center; 
+    font-size: 10px;
+    line-height: 2px;
 }
 
 footer ul {
