@@ -85,10 +85,13 @@ p { /*testar*/
     border: 3px solid rgba(140,82,255,1);
 }
 
-footer {
-background: white;
-font-size: 20px;
-line-height: 2em;
+main {
+    width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 2em;
 }
 
 .nomes {
