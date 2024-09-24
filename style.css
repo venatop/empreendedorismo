@@ -108,8 +108,8 @@ footer {
 footer p {
     color: black;
     text-align: center; 
-    font-size: 50px;
-    line-height: 2;
+    font-size: 2Opx;
+    line-height: 1.5;
 }
 
 footer ul {
