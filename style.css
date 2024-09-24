@@ -10,13 +10,14 @@
 }
 
 * {
-    height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    display: flex; 
+    flex-direction: column; 
     background-image: linear-gradient(to right,#021F2D 0%, #2657b3 100%) !important; 
     background-attachment: fixed;
     margin: 0px;
