@@ -104,8 +104,8 @@ footer {
 footer p {
     color: black;
     text-align: center; 
-    font-size: 10px;
-    line-height: 2px;
+    font-size: 100px;
+    line-height: 20px;
 }
 
 footer ul {
