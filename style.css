@@ -17,6 +17,7 @@
 
 body {
     background-image: linear-gradient(to right,#021F2D 0%, #2657b3 100%) !important; 
+    background-attachment: fixed;
     margin: 0px;
     margin-bottom: 100px;
 }
@@ -94,16 +95,38 @@ main {
     line-height: 2em;
 }
 
-.nomes {
-font-size: 20px;
-line-height: 2em;
-color: black;
-}
-
 .conteudo {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 20px;
     margin-right: 20px;
 }
- 
+
+footer {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center; 
+    padding: 20px 0; 
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none; 
+    padding: 0;
+}
+
+footer ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline; 
+}
