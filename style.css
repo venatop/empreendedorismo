@@ -88,6 +88,7 @@ main {
 }
 
 .conteudo {
+    border-radius: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 20px;
