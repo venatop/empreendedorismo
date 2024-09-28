@@ -16,6 +16,7 @@
 }
 
 body {
+    height: 100%;
     display: flex; 
     flex-direction: column; 
     background-image: linear-gradient(to right,#021F2D 0%, #2657b3 100%) !important; 
@@ -79,6 +80,7 @@ header { /*cabeçalho*/
 }
 
 main {
+    height: 100%;
     width: 1000px;
     margin: auto;
     background: white;
@@ -88,6 +90,7 @@ main {
 }
 
 .conteudo {
+    height: 100%;
     border-radius: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
