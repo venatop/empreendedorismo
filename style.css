@@ -9,6 +9,33 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Barbra SemiItalic';
+    src: 
+        url('fontes/barbra-font/Barbra-HighItalic.ttf') format('truetype'),
+        url('fontes/barbra-font/Barbra-HighItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barbra Italic';
+    src: 
+        url('fontes/barbra-font/Barbra-Italic.ttf') format('truetype'),
+        url('fontes/barbra-font/Barbra-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barbra Regular';
+    src: 
+        url('fontes/barbra-font/Barbra-Regular.ttf') format('truetype'),
+        url('fontes/barbra-font/Barbra-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,8 +45,9 @@
 body {
     height: 100%;
     display: flex; 
+    font-family: 'Roboto', sans-serif;
     flex-direction: column; 
-    background-image: linear-gradient(to right,#021F2D 0%, #2657b3 100%) !important; 
+    background-image: linear-gradient(to right,#043046 0%, #2657b3 100%) !important; 
     background-attachment: fixed;
     margin-bottom: 100px;
 }
@@ -80,13 +108,136 @@ header {
 }
 
 main {
+    display: flex;
+    justify-content: space-between;
     height: 100%;
     width: 1000px;
     margin: 20px auto;
+    box-shadow: 5px 5px 5px 5px #04283aa2;
     background: white;
-    border-radius: 10px;
-    font-size: 20px;
+    border-radius: 20px;
     line-height: 2em;
+    overflow: hidden;
+}
+
+
+section {
+    height: 400px;
+    overflow-y: auto;
+    width: 50%; /* Ajuste conforme necessário */
+    padding: 10px;
+    border: 1px solid #ccc; /* Estilo opcional */
+}
+
+h2 {
+    font-family: 'Barbra Regular', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.conquista {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.conquista img {
+    width: 20px;
+    height: auto; 
+    margin-top: 10px;
+    margin-right: 10px; 
+}
+
+.conquista div {
+    display: flex;
+    flex-direction: column; 
+}
+
+.promocao {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.promocao img {
+    width: 50px;
+    height: auto; 
+    margin-top: 10px;
+    margin-left: -15px;
+    margin-right: -5px;
+}
+
+.promocao div {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.novonivel {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.novonivel  img {
+    width: 40px;
+    height: auto; 
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: 2px;
+}
+
+.novonivel div {
+    display: flex;
+    flex-direction: column; 
+}
+
+.platina {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.platina  img {
+    width: 30px;
+    height: auto; 
+    margin-top: 10px;
+    margin-left: -4px;
+    margin-right: 8px;
+}
+
+.platina div {
+    display: flex;
+    flex-direction: column; 
+}
+
+.aviso {
+    position: relative; /* Para posicionar o link em relação ao parágrafo */
+}
+
+.aviso p {
+    position: relative; /* Para permitir o posicionamento de elementos absolutos */
+    padding-bottom: 30px; /* Espaço para o link */
+}
+
+.aviso .sombra {
+    position: absolute;
+    bottom: 0; /* Alinha ao fundo do parágrafo */
+    left: 0;
+    right: 0;
+    height: 20px; /* Altura da sombra */
+    background: white; /* Cor da sombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 1; /* Garante que a sombra fique abaixo do link */
+}
+
+.leia-mais {
+    position: absolute;
+    bottom: 31px;
+    right: -5; 
+
+    text-decoration: none; 
+    color: #4d647c;
 }
 
 .conteudo {
