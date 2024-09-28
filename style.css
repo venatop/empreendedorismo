@@ -21,11 +21,10 @@ body {
     flex-direction: column; 
     background-image: linear-gradient(to right,#021F2D 0%, #2657b3 100%) !important; 
     background-attachment: fixed;
-    margin: 0px;
     margin-bottom: 100px;
 }
 
-header { /*cabeçalho*/
+header {
     background: white;
     border-bottom: solid 2px rgba(140,82,255,1);
     color: black;
@@ -36,7 +35,7 @@ header { /*cabeçalho*/
     font-size: 20px;
 }
 
-.titulo { /*Classe para título do cabeçalho*/
+.titulo {
     font-family: 'Barbra Semcondensed', sans-serif;
     font-size: 24px;
     color: #333; 
@@ -44,12 +43,11 @@ header { /*cabeçalho*/
 
 }
 
-.logo { /*Classe para logo do cabeçalho*/
+.logo {
     height: 75px; 
     margin-right: 40px; 
 }
 
-  /*OS 4 estilos abaixo são para a aba nav*/
 #menu ul  {
     background: white;  /*visual da lista*/
     padding-bottom: 20px;
@@ -61,7 +59,9 @@ header { /*cabeçalho*/
     list-style:none;
 }
 
-#menu ul li {display: inline; /*deixar na horizontal.*/}  
+#menu ul li {
+    display: inline; 
+}  
 
 #menu ul li a { 
     padding: 3px 60px; 
