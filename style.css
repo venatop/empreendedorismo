@@ -80,15 +80,19 @@ header {
     background: white;  /*visual da lista*/
     padding-bottom: 20px;
     padding-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+    overflow: hidden;
     margin: 0; padding: 0;
-    display: inline-block;
+    display: flex;
     background-color: transparent;
     font-family: 'Barbra Semcondensed', sans-serif;
     list-style:none;
 }
 
 #menu ul li {
-    display: inline; 
+    display: inline;
+    margin: 0px 3px; 
 }  
 
 #menu ul li a { 
@@ -97,21 +101,21 @@ header {
     background-color:white; 
     color: black; /*cor do texto*/ 
     text-decoration: none; 
-    border-bottom:3px solid white;
+    border-bottom: 3px solid white;
     border-radius: 20px;
 }
 
 #menu ul li a:hover { 
     background-color:#D6D6D6; /*visual ao passar mouse*/
     color: #6D6D6D;
-    border: 3px solid rgba(140,82,255,1);
+    border-color: rgba(140,82,255,1); /* Apenas altera a cor da borda no hover */
 }
 
 main {
     display: flex;
     justify-content: space-between;
     height: 100%;
-    width: 1000px;
+    width: 1100px;
     margin: 20px auto;
     box-shadow: 5px 5px 5px 5px #04283aa2;
     background: white;
@@ -119,7 +123,6 @@ main {
     line-height: 2em;
     overflow: hidden;
 }
-
 
 section {
     height: 400px;
