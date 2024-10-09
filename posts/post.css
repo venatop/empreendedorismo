@@ -76,37 +76,47 @@ header {
     margin-right: 40px; 
 }
 
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+#menu  {
+    display: flex;
+    justify-content: center;
+
+}
+
 #menu ul  {
-    background: white;  /*visual da lista*/
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
     margin: 0; padding: 0;
-    display: inline-block;
+    display: flex;
     background-color: transparent;
     font-family: 'Barbra Semcondensed', sans-serif;
     list-style:none;
 }
 
 #menu ul li {
-    display: inline; 
+    display: inline;
+    margin: 0px 3px; 
 }  
 
 #menu ul li a { 
-    padding: 3px 60px; 
-    display: inline-block; /* visual do link */ 
+    padding: 1px 45px; 
+    display: inline-block; 
     background-color:white; 
-    color: black; /*cor do texto*/ 
-    text-decoration: none; 
-    border-bottom:3px solid white;
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(140,82,255,1);;
     border-radius: 20px;
 }
 
 #menu ul li a:hover { 
-    background-color:#D6D6D6; /*visual ao passar mouse*/
+    background-color:#D6D6D6;
     color: #6D6D6D;
-    border: 3px solid rgba(140,82,255,1);
 }
-
 
 .postagem {
     background: white;
@@ -132,7 +142,9 @@ header {
     align-items: flex-start;
     text-align: start;
     height: 50px;
-
+    border-radius: 100%;
+    box-shadow: #333 0px 0px 1px 1px;
+    
 }
 
 .assunto {
